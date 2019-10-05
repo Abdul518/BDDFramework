@@ -1,8 +1,14 @@
 package Stepfolder;
 
 import cucumber.api.java.en.*;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.Test;
 
 public class Siasatsteps {
+
+
     @Given("User is on the website")
     public void user_is_on_the_website()
     {
@@ -14,7 +20,6 @@ public class Siasatsteps {
     {
         System.out.println("user open the siasat URL");
     }
-
     @Then("User should be displayed news homepage")
     public void user_should_be_displayed_news_homepage()
     {
